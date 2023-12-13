@@ -1,0 +1,275 @@
+html{
+    background-color: #6a65c4c8;
+}
+
+.NAVBAR {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.textnav {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    cursor: pointer;
+}
+
+.textnava {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.auth {
+    display: grid;
+    gap: 20px;
+    padding-top: 3%;
+}
+
+
+.photo {
+
+    width: 100%;
+
+    background-size: cover;
+    filter: blur(2px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+}
+
+.relative {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.zaiavka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: white;
+
+    position: relative;
+}
+
+.zapros {
+
+    position: absolute;
+
+    background: #6e6abdc8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
+
+.textzapros {
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    text-decoration-line: underline;
+
+}
+
+.textzapros2 {
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.15px;
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.22px;
+}
+
+.formazaprosa {
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form-content {
+    border: 1px solid #000;
+    background: #F5F5F5;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#username {
+    width: 500px;
+    height: 200px;
+    gap: 50px;
+}
+
+.username{
+    gap: 50px;
+    padding: 20px;
+}
+
+#button{
+    gap: 50px;
+}
+
+.zaebalo{
+    padding: 20px;
+}
+
+.pochemu {
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    text-decoration-line: underline;
+}
+
+.plus {
+    padding-top: 30px;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.tolsti {
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.24px;
+}
+
+.tonki {
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.22px;
+}
+
+.text {
+    padding-top: 100px;
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+
+.nado {
+    padding-top: 100px;
+}
+
+.punktir {
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+
+.kursiv {
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    text-decoration-line: underline;
+}
+
+.blokone {
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+
+.blok{
+    display: flex;
+    justify-content: space-around;
+}
+
+.krug {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.pervi {
+    display: grid;
+    align-self: center;
+    justify-content: center;
+
+}

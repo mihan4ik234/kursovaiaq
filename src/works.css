@@ -1,0 +1,82 @@
+.ALL {
+    padding: 5vw;
+}
+
+
+
+.zakaz {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #0E1F12;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 112.5% */
+}
+
+.workss {
+    display: grid;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.topik {
+    padding-top: 2vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#topik {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.opisanie {
+    color: #000;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+#time {
+    color: #484848;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.down {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.rait {
+    color: #414141;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.varianti{
+    border: 1px solid #EEE;
+    background-color: #d4d0d0;
+    margin: 2vw;
+}
